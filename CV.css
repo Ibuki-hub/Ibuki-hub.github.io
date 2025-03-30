@@ -2,5 +2,14 @@
 
 table, td, th{
     border: solid 1px;
+    text-wrap: balance;
+}
+
+span{
+    display: inline-block;
+}
+
+.nowrap{
     word-break: keep-all;
+    overflow-wrap: anywhere;
 }

@@ -4,6 +4,7 @@ table{
     width: 100%;
 }
 
+.short{width: 20%;}
 table, td, th{
     border: solid 1px;
     text-wrap: balance;

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+table{
+    table-layout: fixed;
+    width: 100%;
+}
 
 table, td, th{
     border: solid 1px;

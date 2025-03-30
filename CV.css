@@ -2,4 +2,5 @@
 
 table, td, th{
     border: solid 1px;
+    word-break: keep-all;
 }

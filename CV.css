@@ -1,10 +1,12 @@
 @charset "UTF-8";
 table{
     table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
 }
 
 .short{width: 20%;}
+.wide{width: 80%;}
 table, td, th{
     border: solid 1px;
     text-wrap: balance;

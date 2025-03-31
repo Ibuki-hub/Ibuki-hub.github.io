@@ -22,3 +22,5 @@ ul{
     border-radius: 50%;
     content: "";
 }
+
+img{max-width: 50%;}

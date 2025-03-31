@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website_study</title>
+    <link rel="stylesheet" href="site1.css">
+    <link rel="stylesheet" href="study.css">
+</head>
+<body>
+    <header>
+        <p id="hierarchy">東京大学   <   地球惑星科学専攻   <   生駒研究室</p>
+        <h1 class="style-h1"><ruby>&#36795;&#xE0100;<rp>(</rp><rt>つじ</rt><rp>)</rp></ruby>&emsp;<ruby>勇吹樹<rp>(</rp><rt>いぶき</rt><rp>)</rp></ruby>&thinsp;/&thinsp;TSUJI Ibuki</h1><br>
+        <nav class="style-nav">
+            <ul>
+                <li><a href="site1.html">ホーム</a></li>
+                <li><a href="CV.html">履歴</a></li>
+                <li><a href="research.html">研究</a></li>
+                <li><a href="study.html">勉強</a></li>
+                <li><a href="#">プロジェクト</a></li>
+            </ul>
+        </nav><br>
+    </header>
+    <h2>勉強</h2><br>
+    <p>自習・ゼミでの勉強資料を共有します。間違いも多くあるので、原典を参照してください。</p>
+    <figure>
+        <img src="studymap.png" usemap="#map" alt="勉強資料の分類。クリックすると飛びます。">
+        <map name="map">
+            <area shape="rect" coords="0,0,657,272" href="#planet" alt="惑星・天文">
+            <area shape="rect" coords="657,0,1322,272" href="#physics" alt="物理">
+        </map>
+    </figure><br>
+    <section id="planet">
+        <h3>惑星・天文</h3>
+        <ul class="circle">
+            <li>Astrophysics of Planet Formation(Armitage, P. J. 2020)<br><p>[2024春-夏]ゼミで5-7章を輪読しました。</p>
+                <ul>
+                    <li>第5章1:<a href="study/5.1.pdf">pdf</a></li>
+                    <li>第5章4:<a href="study/5.4.pdf">pdf</a></li>
+                    <li>第5章5:<a href="study/5.5.pdf">pdf</a></li>
+                    <li>第6章1.1:<a href="study/6.1.1.pdf">pdf</a></li>
+                    <li>第6章2:<a href="study/6.2.pdf">pdf</a></li>
+                    <li>第7章1.5:<a href="study/APFormation_7-1-5.pdf">pdf</a></li>
+                </ul>
+            </li>
+            <li>Solar System Dynamics(Murray, C. D. & Dermott, S. F. 2000)</li>
+            <li>Stellar Structure and Evolution(Kippenhahn, R & Weigert, A & Weiss, A 2020)</li>
+            <li>Introduction to Cosmology: SECOND EDITION(Ryden, B 2016)</li>
+        </ul>
+    </section>
+    <section id="physics">
+        <h3>物理</h3>
+        <ul class="circle">
+            <li><b>解析力学・量子論</b>(須藤 2019)<a href="study/KAISEKI.pdf">pdf</a><br><p>[2025春]並木(2015)や近藤(2021)の教科書も参照しながら解析力学の部分をまとめました。</p></li>
+            <li><b>Hydrodynamic and hydromagnetic stability</b>(Chandrasekhar, S 1961)<br>
+            <p>[2024冬]ゼミで2-4章を輪読しました。</p>
+                <ul>
+                    <li>第2章5-7:<a href="study/Therm_instab_BENARD_5-7.pdf">pdf</a></li>
+                    <li>第2章14-15:<a href="study/Therm_Instab_BENARD_14-15.pdf">pdf</a></li>
+                    <li>第3章22-24:<a href="study/therm_instab_3_22.pdf">pdf</a></li>
+                    <li>第3章29:<a href="study/therm_instab_3_29.pdf">pdf</a></li>
+                    <li>第4章38(b)-39:<a href="study/therm_instab_4_39.pdf">pdf</a></li>
+                    <li>第4章44:<a href="study/therm_instab_4_44.pdf">pdf</a></li>
+                </ul>
+        </li>
+            <li><b>熱力学・統計力学</b>(原島 1966)<a href="study/NETSURIKIGAKU.pdf">pdf</a><br><p>[2024秋]清水(2021)や高橋(2023)の教科書も参照しながら熱力学の部分をまとめました。</p></li>
+        </ul>
+    </section>
+
+    <footer>
+        <hr>
+        <p><small>東京大学地球惑星科学専攻&emsp;&#36795;&#xE0100;&emsp;勇吹樹</small></p>
+        <p><small>mail:  (at)</small></p>
+        <script>
+            <!--
+                gmt = new Date();
+                document.write("Last update:",document.lastModified);
+                document.write("<br>");
+                document.write("現在時刻:",gmt.toLocaleString());
+            //-->
+        </script>
+    </footer>
+</body>
+</html>

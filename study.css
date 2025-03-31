@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+li p{
+    text-indent: 1em;
+}
+
+ul{
+    background: #fafafa;
+}
+.circle > li{
+    position: relative;
+    padding-left: 22px;
+}
+.circle > li:before{
+    position: absolute;
+    top: .8em;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    content: "";
+}

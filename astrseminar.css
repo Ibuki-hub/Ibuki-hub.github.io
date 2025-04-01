@@ -1,0 +1,21 @@
+ul {
+  padding: 0;
+}
+
+ul li:has(p), ol li:has(p) {
+  color: #404040;
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+}
+
+ul li p {
+  font-weight: normal;
+  border-left: none;
+  list-style-type: disc;
+  text-indent: 0%;
+}

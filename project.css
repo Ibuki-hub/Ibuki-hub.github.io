@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+details{
+    border: 1px solid #CCC;
+    border-radius: 4px;/*角を丸くする*/
+    margin-bottom: 10px;/*メニュー間の空白*/
+}
+
+summary{
+    display: block;
+    font-weight: bold;/*太字*/
+    padding: 10px 15px;/*上下の空白*/
+    cursor: pointer;
+    background-color: #fcefb5;
+}
+
+details[open] summary{
+    background-color: #f9db56;
+}
+
+.mawarikomi-right{max-width: 40%;display:block;margin-left: auto;margin-right: auto;}
+
+@media(min-width: 1024px){
+    .box{
+        display: flex;
+    }
+    .mawarikomi-right{
+        float: right;
+    }
+    .kaizyo{
+        clear: both;/*回りこみ解除*/
+        padding: 10px;/*上下の空白*/
+    }
+}

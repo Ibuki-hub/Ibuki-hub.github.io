@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.slider{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    border: 5px solid #c0c0c0;
+    flex-direction: row-reverse;
+}
+
+h2{
+    display: block;
+    font-weight: bold;/*太字*/
+    padding: 10px 15px;/*上下の空白*/
+    background-color: #fcefb5;
+    color: white;
+    background-color: #98AE00;
+}
+
+.slide{
+    width: 400px;
+}
+
+.img300{
+    width: 400px;
+}
+
+.lightbox{
+    position: fixed;
+    max-width: 768px;
+    max-height: calc(100%-16px*2);
+    inset: 0;
+    margin: auto;
+    background: #fff;
+    padding: 16px;
+    overflow: auto;
+}
+
+.lightbox::backdrop{
+    background: rgba(0,0,0,0.75);
+}
+
+@media(min-width: 768px){
+    .slider{
+        width: 400px;
+        height: 600px;
+    }
+    .slide{
+        width: 400px;
+    }
+    
+    .img300{
+        width: 400px;
+    }
+}
+@media(min-width:1024px){
+    .slider{
+        width: 850px;
+    }
+}

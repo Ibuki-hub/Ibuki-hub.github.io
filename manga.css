@@ -44,15 +44,15 @@ h2{
 
 @media(min-width: 768px){
     .slider{
-        width: 400px;
-        height: 600px;
+        width: 600px;
+        height: 900px;
     }
     .slide{
-        width: 400px;
+        width: 600px;
     }
     
     .img300{
-        width: 400px;
+        width: 600px;
     }
 }
 @media(min-width:1024px){
